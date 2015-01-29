@@ -24,7 +24,7 @@ namespace Phoneword
 		public override bool WillFinishLaunching (UIApplication application, NSDictionary launchOptions)
 		{
 			InvokeOnMainThread (() => {
-				Thread.CurrentThread.Name = "UIThread";
+				Thread.CurrentThread.Name = "UI_Thread";
 			});
 
 			return true;
